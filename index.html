@@ -1,66 +1,85 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Quiz de Prática</title>
-        <link rel="icon" href="https://example.com/icon.png"> 
-        <link rel="stylesheet" href="style.css">
-        
-    </head>
-    <body>
-        <div class="quiz-container">
-            <h1>Quiz de Prática 🧠</h1>
-            <img src="https://media.istockphoto.com/id/1464511713/pt/vetorial/quiz-logo-isolated-on-white-background.jpg?s=612x612&w=0&k=20&c=Y84i5pib5b6qQcr_SlzhUevEciQa_ob3JQvVUSUzLNE=" alt="Image-quiz">
-            
-            <form action="#">
-                <div class="question">
-                    <label for="q1">1. Qual é a capital do Brasil?</label><br>
-                    <ul class="options">
-                        <li><input type="radio" name="q1" value="São Paulo"> São Paulo</li>
-                        <li><input type="radio" name="q1" value="Brasília"> Brasília</li>
-                        <li><input type="radio" name="q1" value="Rio de Janeiro"> Rio de Janeiro</li>
-                        <li><input type="radio" name="q1" value="Salvador"> Salvador</li>
-                    </ul>
-                </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz de Prática</title>
+    <link rel="icon" href="https://example.com/icon.png" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="quiz-container">
+      <h1>Quiz de Prática 🧠</h1>
+      <img
+        src="https://media.istockphoto.com/id/1464511713/pt/vetorial/quiz-logo-isolated-on-white-background.jpg?s=612x612&w=0&k=20&c=Y84i5pib5b6qQcr_SlzhUevEciQa_ob3JQvVUSUzLNE="
+        alt="Image-quiz"
+      />
 
-                <div class="question">
-                    <label for="q2">2. Qual é o maior planeta do Sistema Solar?</label><br>
-                    <ul class="options">
-                        <li><input type="radio" name="q2" value="Terra"> Terra</li>
-                        <li><input type="radio" name="q2" value="Júpiter"> Júpiter</li>
-                        <li><input type="radio" name="q2" value="Saturno"> Saturno</li>
-                        <li><input type="radio" name="q2" value="Marte"> Marte</li>
-                    </ul>
-                </div>
-
-                <div class="question">
-                    <label for="q3">3. Quem pintou a Mona Lisa?</label><br>
-                    <ul class="options">
-                        <li><input type="radio" name="q3" value="Van Gogh"> Van Gogh</li>
-                        <li><input type="radio" name="q3" value="Pablo Picasso"> Pablo Picasso</li>
-                        <li><input type="radio" name="q3" value="Leonardo Da Vinci"> Leonardo Da Vinci</li>
-                        <li><input type="radio" name="q3" value="Claude Monet"> Claude Monet</li>
-                    </ul>
-                </div>
-
-                <div class="question">
-                    <label for="q4">4. Qual é o nome do presidente dos EUA em 2025?</label><br>
-                    <input type="text" id="q4" name="q4">
-                </div>
-
-                <div class="question">
-                    <label for="q5">5. Em que ano ocorreu a independência do Brasil?</label><br>
-                    <input type="text" id="q5" name="q5">
-                </div>
-
-                <div class="question">
-                    <label for="q6">6. Qual é o símbolo químico da água?</label><br>
-                    <input type="text" id="q6" name="q6">
-                </div>
-
-                <button type="submit" class="submit-btn">Enviar Respostas</button>
-            </form>
+      <form action="#">
+        <div class="question">
+          <label for="q1">1. Qual é a capital do Brasil?</label><br />
+          <ul class="options">
+            <li>
+              <input type="radio" name="q1" value="São Paulo" /> São Paulo
+            </li>
+            <li><input type="radio" name="q1" value="Brasília" /> Brasília</li>
+            <li>
+              <input type="radio" name="q1" value="Rio de Janeiro" /> Rio de
+              Janeiro
+            </li>
+            <li><input type="radio" name="q1" value="Salvador" /> Salvador</li>
+          </ul>
         </div>
-    </body>
+
+        <div class="question">
+          <label for="q2">2. Qual é o maior planeta do Sistema Solar?</label
+          ><br />
+          <ul class="options">
+            <li><input type="radio" name="q2" value="Terra" /> Terra</li>
+            <li><input type="radio" name="q2" value="Júpiter" /> Júpiter</li>
+            <li><input type="radio" name="q2" value="Saturno" /> Saturno</li>
+            <li><input type="radio" name="q2" value="Marte" /> Marte</li>
+          </ul>
+        </div>
+
+        <div class="question">
+          <label for="q3">3. Quem pintou a Mona Lisa?</label><br />
+          <ul class="options">
+            <li><input type="radio" name="q3" value="Van Gogh" /> Van Gogh</li>
+            <li>
+              <input type="radio" name="q3" value="Pablo Picasso" /> Pablo
+              Picasso
+            </li>
+            <li>
+              <input type="radio" name="q3" value="Leonardo Da Vinci" />
+              Leonardo Da Vinci
+            </li>
+            <li>
+              <input type="radio" name="q3" value="Claude Monet" /> Claude Monet
+            </li>
+          </ul>
+        </div>
+
+        <div class="question">
+          <label for="q4">4. Qual é o nome do presidente dos EUA em 2025?</label
+          ><br />
+          <input type="text" id="q4" name="q4" />
+        </div>
+
+        <div class="question">
+          <label for="q5"
+            >5. Em que ano ocorreu a independência do Brasil?</label
+          ><br />
+          <input type="text" id="q5" name="q5" />
+        </div>
+
+        <div class="question">
+          <label for="q6">6. Qual é o símbolo químico da água?</label><br />
+          <input type="text" id="q6" name="q6" />
+        </div>
+
+        <button type="submit" class="submit-btn">Enviar Respostas</button>
+      </form>
+    </div>
+  </body>
 </html>
